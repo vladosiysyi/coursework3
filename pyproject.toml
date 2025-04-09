@@ -1,0 +1,20 @@
+[project]
+name = "coursework3"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flake8 (>=7.2.0,<8.0.0)",
+    "pytest (>=8.3.5,<9.0.0)",
+    "mypy (>=1.15.0,<2.0.0)",
+    "autopep8 (>=2.3.2,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
